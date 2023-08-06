@@ -448,13 +448,11 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+}
+.footer-logo-desc {
   margin-right: 120px;
-  flex-direction: column;
 }
-.footer-social-media {
-  display: inline-flex;
-  flex-direction: column;
-}
+
 .footer-social-media {
   font-weight: 500;
   font-size: 16px;

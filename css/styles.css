@@ -400,10 +400,12 @@ img {
   line-height: 1.11;
   color: var(--text-color);
   margin-bottom: 72px;
+  margin-top: 0;
 }
 .customers-list {
   display: flex;
   gap: 24px;
+  padding-left: 0;
 }
 .customers-list-item {
   width: calc((100% - 120px) / 6);

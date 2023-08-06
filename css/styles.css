@@ -461,3 +461,12 @@ img {
   color: var(--primary-white-color);
   margin-bottom: 16px;
 }
+.social-list {
+  gap: 16px;
+}
+.social-links-footer:hover {
+  background-color: #31d0aa;
+}
+.social-links-footer:focus {
+  background-color: #31d0aa;
+}

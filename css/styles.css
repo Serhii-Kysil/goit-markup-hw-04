@@ -461,7 +461,7 @@ img {
   color: var(--primary-white-color);
   margin-bottom: 16px;
 }
-.social-list {
+.social-footer {
   gap: 16px;
 }
 .social-links-footer:hover {

@@ -7,6 +7,7 @@
   --paragraph-text-color: #434455;
   --portfolio-buttons-color-text: #4d5ae5;
   --standart-border: #e7e9fc;
+  --icons-color: #8e8f99;
 }
 body {
   font-family: 'Raleway', sans-serif;
@@ -388,4 +389,44 @@ img {
 }
 .team-desc-icons {
   fill: var(--footer-text-color);
+}
+.fifth-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.fifth-section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--text-color);
+  margin-bottom: 72px;
+  text-align: center;
+}
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+.customers-list-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+.customers-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--icons-color);
+}
+.customers-link:hover {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+.customers-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+.customer-icons {
+  fill: currentColor;
 }

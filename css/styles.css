@@ -395,11 +395,11 @@ img {
   padding-bottom: 120px;
 }
 .fifth-section-title {
+  text-align: center;
   font-size: 36px;
   line-height: 1.11;
   color: var(--text-color);
   margin-bottom: 72px;
-  text-align: center;
 }
 .customers-list {
   display: flex;
@@ -418,6 +418,8 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--icons-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link:hover {
   border-color: #404bbf;
